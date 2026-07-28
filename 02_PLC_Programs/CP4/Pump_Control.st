@@ -52,8 +52,7 @@ IF Emergency_Stop THEN
 
 ELSIF Stop_PB THEN
     Pump_Run := FALSE;
-    Start_Request := FALSE;
-
+    
 (* Start Command *)
 
 ELSIF Start_PB THEN
