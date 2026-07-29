@@ -62,7 +62,7 @@ END_IF;
 (* Pump Start Conditions *)
 
 IF Start_Request
-AND Tank_Level >= 100.0
+AND Tank_Level >= 80.0
 AND Motor_Healthy THEN
 
     Pump_Run := TRUE;
