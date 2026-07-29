@@ -71,6 +71,6 @@ END_IF;
 
 (* Low Tank Level Protection *)
 
-IF Tank_Level < 30.0 THEN
+IF Tank_Level < 60.0 THEN
     Pump_Run := FALSE;
 END_IF;
